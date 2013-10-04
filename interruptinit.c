@@ -1,5 +1,4 @@
 
-
 #include "stm32f4_discovery.h"
 #include "AudioRecord.h"
 #include "stm32f4_discovery_audio_codec.h"
@@ -16,7 +15,6 @@
 #define SPI_MOSI_GPIO_CLK                 RCC_AHB1Periph_GPIOC
 #define SPI_MOSI_SOURCE                   GPIO_PinSource3
 #define SPI_MOSI_AF                       GPIO_AF_SPI2
-
 
 /* GPIO INIT CALL CHECK & SPI INIT CALL CHECK */
 int GPIO_FLAG = 0;
